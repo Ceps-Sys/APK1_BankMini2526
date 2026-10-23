@@ -129,7 +129,6 @@ $ID_USER    = $USER_LOGIN['id_user'] ?? '';
                             <a href="index.php?pages=data_nasabah" class="sidebar-link">
                                 <i class="bi bi-people-fill"></i>
                                 <span>Data Nasabah</span>
-                                <span class="badge bg-success ms-auto">New</span>
                             </a>
                         </li>
 
@@ -181,7 +180,6 @@ $ID_USER    = $USER_LOGIN['id_user'] ?? '';
                             <a href="index.php?pages=laporan_peringkat" class="sidebar-link">
                                 <i class="bi bi-people"></i>
                                 <span>Laporan Peringkat</span>
-                                <span class="badge bg-success ms-auto">New</span>
                             </a>
                         </li>
 
@@ -189,21 +187,32 @@ $ID_USER    = $USER_LOGIN['id_user'] ?? '';
                         <li class="sidebar-title">PENGATURAN</li>
 
                         <li class="sidebar-item">
-                            <a href="index.php?pages=pengaturan_sistem" class="sidebar-link">
+                            <a href="index.php?pages=pengaturan_petugas" class="sidebar-link">
                                 <i class="bi bi-gear-fill"></i>
-                                <span>Pengaturan Sistem</span>
-                                <span class="badge bg-success ms-auto">New</span>
+                                <span>Pengaturan petugas</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item">
+                            <a href="index.php?pages=pengaturan_pengawas" class="sidebar-link">
+                                <i class="bi bi-gear-fill"></i>
+                                <span>Pengaturan pengawas</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item has-sub">
                             <a href="#" class="sidebar-link">
                                 <i class="bi bi-shield-lock-fill"></i>
-                                <span>Pengaturan Nasabah</span>
+                                <span>Konfigurasi Sistem</span>
                             </a>
                             <ul class="submenu">
                                 <li class="submenu-item">
-                                    <a href="index.php?pages=kategori_nasabah" class="submenu-link">Kategori Nasabah</a>
+                                    <a href="index.php?pages=jurusan" class="submenu-link">Jurusan</a>
+                                </li>
+                            </ul>
+                            <ul class="submenu">
+                                <li class="submenu-item">
+                                    <a href="index.php?pages=kelas" class="submenu-link">Kelas</a>
                                 </li>
                             </ul>
                         </li>
